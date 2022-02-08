@@ -1,6 +1,5 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-
 import { renderListItem } from '../render-utils.js';
 
 const test = QUnit.test;
