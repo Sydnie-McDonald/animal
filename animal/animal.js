@@ -12,9 +12,6 @@ const animalInfo = document.getElementById('animal-data');
 const animalQuote = document.getElementById('quote');
 
 //animal element 
-function displayAnimals(animal) {
-    animalInfo.textContent = animal.name;
-    animalImg.src = `../assets/${animal.type}.svg`;
-    animalQuote.textContent = animal.says;
-}
-displayAnimals();
+animalInfo.textContent = animal.name;
+animalImg.src = `../assets/${animal.type}.svg`;
+animalQuote.textContent = animal.says;
