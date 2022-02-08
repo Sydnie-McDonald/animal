@@ -4,8 +4,8 @@ import { findById } from '../utils';
 
 //search data
 const params = new URLSearchParams(window.location.search);
-const animal = findById(params.get('id'), animal);
-
+const animal = findById(params.get('id'), animals);
+console.log(animal);
 // grab DOM elements
 const animalImg = document.querySelector('.animal-img');
 const animalInfo = document.querySelector('.animal-data');
