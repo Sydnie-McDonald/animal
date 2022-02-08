@@ -6,7 +6,7 @@ const params = new URLSearchParams(window.location.search);
 const animal = findById(params.get('id'), animals);
 // grab DOM elements
 const animalImg = document.getElementById('animal-img');
-const animalInfo = document.getElementById('animal-data');
+const animalInfo = document.querySelector('.animal-data');
 const animalQuote = document.getElementById('quote');
 
 //animal element 
