@@ -1,3 +1,4 @@
+/* eslint-disable no-global-assign */
 // include jsdom for DOM use in tests on travis
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
