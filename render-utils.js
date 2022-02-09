@@ -6,10 +6,12 @@ export function renderListItem(animal) {
 
     // create anchor tag
     const a = document.createElement('a');
-    a.href = `/animals/?id=${animal.id}`;
+    a.href = `/animal/?id=${animal.id}`;
 
     const img = document.createElement('img');
     img.src = `./assets/${animal.type}.svg`;
+    
+    console.log(animal.type);
 
     const nameSpan = document.createElement('span');
     nameSpan.textContent = animal.name;
